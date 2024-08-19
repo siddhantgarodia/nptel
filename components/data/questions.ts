@@ -2,1158 +2,1227 @@ import { Question } from "@/types/Question";
 
 export const questionsByWeek: { [week: string]: Question[] } = {
 	week1: [
-		{
-			question: "Tropical moist forests do not include",
-			options: [
-				"broadleaved forests",
-				"wet evergreen forests",
-				"semi-evergreen forests",
-				"moist deciduous forests",
-			],
-			answer: "broadleaved forests",
-		},
-		{
-			question: "Which of these is not a use value?",
-			options: [
-				"direct value",
-				"indirect value",
-				"option value",
-				"existence value",
-			],
-			answer: "existence value",
-		},
-		{
-			question:
-				"The value derived from the knowledge of use of resources by others in the current generation is called",
-			options: [
-				"altruistic value",
-				"bequest value",
-				"existence value",
-				"option value",
-			],
-			answer: "altruistic value",
-		},
-		{
-			question: "Montane sub-tropical forests do not include",
-			options: [
-				"broadleaved forests",
-				"pine forests",
-				"semi-evergreen forests",
-				"dry evergreen forests",
-			],
-			answer: "semi-evergreen forests",
-		},
-		{
-			question:
-				'“Plant community, predominantly comprised of trees and other woody vegetation, usually with a closed canopy" is',
-			options: [
-				"silvicultural definition of forests",
-				"FAO definition of forests",
-				"legal definition of forests",
-				"ecological definition of forests",
-			],
-			answer: "ecological definition of forests",
-		},
-		{
-			question: "Which of these is not a consumptive value?",
-			options: [
-				"timber",
-				"firewood",
-				"non-timber forest products",
-				"education",
-			],
-			answer: "education",
-		},
-		{
-			question: "The term 'forest' originates from",
-			options: [
-				"Latin foris meaning outside",
-				"Greek foris meaning outside",
-				"Latin foris meaning trees",
-				"Greek foris meaning trees",
-			],
-			answer: "Latin foris meaning outside",
-		},
-		{
-			question:
-				"The value of leaving use and non-use values for offspring's or future generations is called",
-			options: [
-				"altruistic value",
-				"bequest value",
-				"existence value",
-				"option value",
-			],
-			answer: "bequest value",
-		},
-		{
-			question:
-				"Which of these is not a forest type found in India?",
-			options: [
-				"Mediterranean dry",
-				"Tropical dry",
-				"Montane temperate",
-				"Alpine",
-			],
-			answer: "Mediterranean dry",
-		},
-		{
-			question:
-				"According to the Supreme Court, the term forest land includes",
-			options: [
-				"some area recorded as forest in the Government record according to ownership",
-				"any area recorded as forest in the Government record according to ownership",
-				"some area recorded as forest in the Government record irrespective of ownership",
-				"any area recorded as forest in the Government record irrespective of ownership",
-			],
-			answer: "any area recorded as forest in the Government record irrespective of ownership",
-		},
-	],
+    {
+        question: "Which of these is not a step in natural selection?",
+        options: [
+            "variation",
+            "underpopulation",
+            "struggle for existence",
+            "survival of the fittest"
+        ],
+        answer: "underpopulation"
+    },
+    {
+        question: "Which of these is not a characteristic of fitness?",
+        options: [
+            "Fitness is environment-specific.",
+            "Fitness is species-specific.",
+            "Higher reproductive rate means higher fitness.",
+            "Fitness should be measured across several generations."
+        ],
+        answer: "Fitness is species-specific."
+    },
+    {
+        question: "Ecology is the scientific study of ___ that determine the distribution and abundance of organisms. (Fill in the blanks)",
+        options: [
+            "statics",
+            "interactions",
+            "dynamics",
+            "habitat"
+        ],
+        answer: "interactions"
+    },
+    {
+        question: "Which of these is not a characteristic of fitness?",
+        options: [
+            "Fitness is environment-specific.",
+            "Fitness is species-specific.",
+            "Fitness works on traits such as size and speed.",
+            "Fitness should be measured across several generations."
+        ],
+        answer: "Fitness works on traits such as size and speed."
+    },
+    {
+        question: "In the Greek word root of Ecology, Oikos refers to",
+        options: [
+            "household",
+            "preservation",
+            "environment",
+            "study"
+        ],
+        answer: "household"
+    },
+    {
+        question: "\"Enquiry into plants\" is a book written by",
+        options: [
+            "Theophrastus",
+            "Linnaeus",
+            "Malthus",
+            "Humboldt"
+        ],
+        answer: "Theophrastus"
+    },
+    {
+        question: "In the Greek word root of Ecology, logos refers to",
+        options: [
+            "household",
+            "preservation",
+            "environment",
+            "study"
+        ],
+        answer: "study"
+    },
+    {
+        question: "Which of these is not a kind of selection",
+        options: [
+            "directional",
+            "stochastic",
+            "disruptive",
+            "stabilising"
+        ],
+        answer: "stochastic"
+    },
+    {
+        question: "Who amongst these is considered the father of Biogeography?",
+        options: [
+            "Theophrastus",
+            "Linnaeus",
+            "Malthus",
+            "Humboldt"
+        ],
+        answer: "Humboldt"
+    },
+    {
+        question: "Ecology is the scientific study of interactions among organisms and their ___. (Fill in the blanks)",
+        options: [
+            "habitat",
+            "niche",
+            "environment",
+            "population"
+        ],
+        answer: "environment"
+    }
+],
 	week2: [
 		{
-			question: "In the context of plant nutrition, boron is",
-			options: [
-				"macronutrient",
-				"micronutrient",
-				"primary nutrient",
-				"secondary nutrient",
-			],
-			answer: "micronutrient",
-		},
-		{
-			question:
-				"The art and science of cultivating forest crops is called",
-			options: [
-				"foresticulture",
-				"monoculture",
-				"silviculture",
-				"silvics",
-			],
-			answer: "silviculture",
-		},
-		{
-			question:
-				"The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
-			options: [
-				"climatic climax",
-				"edaphic climax",
-				"disclimax",
-				"catastrophic climax",
-			],
-			answer: "disclimax",
-		},
-		{
-			question:
-				"Which of these is not a characteristic of pioneer species",
-			options: [
-				"ability to grow on bare rocks",
-				"ability to tolerate extreme temperatures",
-				"large size",
-				"short life span",
-			],
-			answer: "large size",
-		},
-		{
-			question:
-				"Which of these depicts correctly the lithosere primary succession?",
-			options: [
-				"Rock → Crustose lichen → Foliose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax",
-				"Rock → Foliose lichen → Crustose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax",
-				"Moss → Crustose lichen → Foliose lichen → Rock → Herbaceous stage → Shrub → Woodland → Climax",
-				"Rock → Crustose lichen → Foliose lichen → Shrub → Herbaceous stage → Moss → Woodland → Climax",
-			],
-			answer: "Rock → Crustose lichen → Foliose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax",
-		},
-		{
-			question:
-				"The study of life history / general features of forest crops with respect to environmental factors is called",
-			options: [
-				"foresticulture",
-				"monoculture",
-				"silviculture",
-				"silvics",
-			],
-			answer: "silvics",
-		},
-		{
-			question: "Net primary productivity is given by",
-			options: [
-				"APAR + LUE",
-				"APAR X LUE",
-				"APAR - LUE",
-				"APAR ÷ LUE",
-			],
-			answer: "APAR X LUE",
-		},
-		{
-			question: "A climax caused by wildfires is an example of",
-			options: [
-				"climatic climax",
-				"edaphic climax",
-				"disclimax",
-				"catastrophic climax",
-			],
-			answer: "catastrophic climax",
-		},
-		{
-			question:
-				"Practical application of scientific, technical and economic principles of forestry comes under which branch of forestry?",
-			options: [
-				"forest management",
-				"forest economics",
-				"forest mensuration",
-				"forest protection",
-			],
-			answer: "forest management",
-		},
-		{
-			question: "Which of these is abiotic factor?",
-			options: ["vines", "trees", "reptiles", "water"],
-			answer: "water",
-		},
+    question: "Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the simple reason that hierarchical structures are ___ (Fill in the blank)",
+    options: [
+        "perfect",
+        "imperfect",
+        "stable",
+        "unstable"
+    ],
+    answer: "stable"
+},
+{
+    question: "The mitochondrion is a / an",
+    options: [
+        "Sub-cellular organelle",
+        "Cell",
+        "Tissue",
+        "Organ"
+    ],
+    answer: "Sub-cellular organelle"
+},
+{
+    question: "The hierarchical system was given by",
+    options: [
+        "Simon",
+        "Watson",
+        "Hutchinson",
+        "Humboldt"
+    ],
+    answer: "Simon"
+},
+{
+    question: "There is more biodiversity in areas with",
+    options: [
+        "less competition, less predation",
+        "less competition, more predation",
+        "more competition, more predation",
+        "more competition, less predation"
+    ],
+    answer: "less competition, more predation"
+},
+{
+    question: "\"groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
+    options: [
+        "cells",
+        "species",
+        "ecosystems",
+        "biomes"
+    ],
+    answer: "species"
+},
+{
+    question: "\"the diversity that exists within an ecosystem\" is",
+    options: [
+        "alpha (α) biodiversity",
+        "beta (β) biodiversity",
+        "gamma (γ) biodiversity",
+        "delta (δ) biodiversity"
+    ],
+    answer: "alpha (α) biodiversity"
+},
+{
+    question: "\"the diversity that exists among different geographies\" is",
+    options: [
+        "alpha (α) biodiversity",
+        "beta (β) biodiversity",
+        "gamma (γ) biodiversity",
+        "delta (δ) biodiversity"
+    ],
+    answer: "beta (β) biodiversity"
+},
+{
+    question: "The emergent principle can be stated as",
+    options: [
+        "Whole = sum of parts",
+        "Whole < sum of parts",
+        "Whole > sum of parts",
+        "None of these"
+    ],
+    answer: "Whole > sum of parts"
+},
+{
+    question: "The laboratory approach to Ecology uses",
+    options: [
+        "equations",
+        "models",
+        "observations",
+        "experiments"
+    ],
+    answer: "experiments"
+},
+{
+    question: "For more biodiversity, the level of disturbance should be",
+    options: [
+        "less",
+        "intermediate",
+        "more",
+        "none of these"
+    ],
+    answer: "intermediate"
+},
 	],
 	week3: [
 		{
-			question: "Regur is a term for",
-			options: [
-				"black cotton soil",
-				"alluvial soil",
-				"saline soil",
-				"red and yellow soil",
-			],
-			answer: "black cotton soil",
-		},
-		{
-			question: "Carbonation is an example of",
-			options: [
-				"chemical weathering",
-				"physical weathering",
-				"biological weathering",
-				"none of the above",
-			],
-			answer: "chemical weathering",
-		},
-		{
-			question: "Bangar is a type of",
-			options: [
-				"black cotton soil",
-				"alluvial soil",
-				"saline soil",
-				"red and yellow soil",
-			],
-			answer: "alluvial soil",
-		},
-		{
-			question: "Cryofracturing is an example of",
-			options: [
-				"chemical weathering",
-				"physical weathering",
-				"biological weathering",
-				"none of the above",
-			],
-			answer: "physical weathering",
-		},
-		{
-			question: "In soil profile, C refers to",
-			options: [
-				"organic surface layer",
-				"topsoil layer",
-				"subsoil layer",
-				"substratum layer",
-			],
-			answer: "substratum layer",
-		},
-		{
-			question: "Vertical arrangement of soil horizons is called",
-			options: [
-				"soil texture",
-				"soil structure",
-				"soil profile",
-				"soil science",
-			],
-			answer: "soil profile",
-		},
-		{
-			question: "Thermal stresses lead to",
-			options: [
-				"chemical weathering",
-				"physical weathering",
-				"biological weathering",
-				"none of the above",
-			],
-			answer: "physical weathering",
-		},
-		{
-			question: "Khadar is a type of",
-			options: [
-				"black cotton soil",
-				"alluvial soil",
-				"saline soil",
-				"red and yellow soil",
-			],
-			answer: "alluvial soil",
-		},
-		{
-			question: "Hydrolysis is an example of",
-			options: [
-				"chemical weathering",
-				"physical weathering",
-				"biological weathering",
-				"none of the above",
-			],
-			answer: "chemical weathering",
-		},
-		{
-			question:
-				"Which of these has the highest organic matter content?",
-			options: [
-				"peaty soil",
-				"alluvial soil",
-				"saline soil",
-				"red and yellow soil",
-			],
-			answer: "peaty soil",
-		},
+    question: "Egrets with buffaloes are an example of",
+    options: [
+        "colony",
+        "commensalism",
+        "protocooperation",
+        "allelopathy"
+    ],
+    answer: "commensalism"
+},
+{
+    question: "I observe a monkey take a tick out of another monkey's head and eat it. In the social context, this behaviour would be called",
+    options: [
+        "tick hunting",
+        "auto grooming",
+        "allo grooming",
+        "foraging"
+    ],
+    answer: "allo grooming"
+},
+{
+    question: "Birds on giraffe are an example of",
+    options: [
+        "colony",
+        "commensalism",
+        "protocooperation",
+        "allelopathy"
+    ],
+    answer: "commensalism"
+},
+{
+    question: "Harmonious interactions occur where",
+    options: [
+        "at least one participant is benefited",
+        "at least one participant is unharmed",
+        "both participants are benefitted",
+        "both participants are unharmed"
+    ],
+    answer: "both participants are benefitted"
+},
+{
+    question: "I observe a bird take a tick out of another bird's head and eat it. In the social context, this behaviour would be called",
+    options: [
+        "tick hunting",
+        "auto grooming",
+        "allo grooming",
+        "foraging"
+    ],
+    answer: "allo grooming"
+},
+{
+    question: "The interaction between exotic shrubs and trees through the action of seed predators is an example of",
+    options: [
+        "infraspecific competition",
+        "apparent competition",
+        "disguised competition",
+        "harmonious competition"
+    ],
+    answer: "apparent competition"
+},
+{
+    question: "Trampling of grass due to the movement of animals is an example of",
+    options: [
+        "mutualism",
+        "amensalism",
+        "commensalism",
+        "protocooperation"
+    ],
+    answer: "amensalism"
+},
+{
+    question: "The scientific study of animal behaviour is called",
+    options: [
+        "behaviourism",
+        "ecology",
+        "ethology",
+        "prey-predator dynamics"
+    ],
+    answer: "ethology"
+},
+{
+    question: "An inventory of behaviours exhibited by an animal during a behaviour exercise is called",
+    options: [
+        "ecogram",
+        "ethogram",
+        "behaviourogram",
+        "animalogram"
+    ],
+    answer: "ethogram"
+},
+{
+    question: "Hamilton's rule can be stated as",
+    options: [
+        "rB < C",
+        "rB > C",
+        "rB = C",
+        "rB + C = 0"
+    ],
+    answer: "rB > C"
+},
 	],
 	week4: [
 		{
-			question:
-				"Measurement of height based on similar triangles comes under:",
-			options: [
-				"similar measurement",
-				"dissimilar measurement",
-				"direct measurement",
-				"indirect measurement",
-			],
-			answer: "indirect measurement",
-		},
-		{
-			question:
-				"For normal form factor, the reference for the base of the cylinder is",
-			options: [
-				"base of the tree",
-				"breast height",
-				"10% of tree height",
-				"20% of tree height",
-			],
-			answer: "10% of tree height",
-		},
-		{
-			question:
-				"In a triangle, the angle between base and hypotenuse, θ = 60° and the hypotenuse c = 2 cm. Find the length of the base b.",
-			options: ["0.33", "0.5", "0.75", "1"],
-			answer: "1",
-		},
-		{
-			question:
-				"3 trees are located in a sample plot of 15 m × 15 m. Their dbh are as under: dbh = 25 cm, 30 cm, 35 cm. Find the stand basal area in sq m per Ha.",
-			options: ["9.6", "14.6", "21.6", "27.6"],
-			answer: "9.6",
-		},
-		{
-			question:
-				"Consider a stand of eucalyptus trees that are on average 30 cm in diameter and spaced on a regular 3 m grid. Find the spacing factor.",
-			options: ["5", "10", "15", "data insufficient"],
-			answer: "10",
-		},
-		{
-			question:
-				"For a tree with dbh = 45.6 cm, height = 27 m and total stem volume of 1.78 cum, the artificial form factor for the tree is:",
-			options: ["0.1", "0.2", "0.3", "0.4"],
-			answer: "0.4",
-		},
-		{
-			question:
-				"For absolute form factor, the reference for the base of the cylinder is",
-			options: [
-				"base of the tree",
-				"breast height",
-				"10% of tree height",
-				"20% of tree height",
-			],
-			answer: "base of the tree",
-		},
-		{
-			question:
-				"Diameter over bark (dob), diameter under bark (dub) and bark thickness (tb) are related as:",
-			options: [
-				"dob = dub + tb",
-				"dob = dub - tb",
-				"dob = dub + 2 × tb",
-				"dob = dub - 2 × tb",
-			],
-			answer: "dob = dub + 2 × tb",
-		},
-		{
-			question: "Choose the correct statement:",
-			options: [
-				"For a non-circular cross-section, girth tape over-estimates the sectional area.",
-				"For a non-circular cross-section, girth tape under-estimates the sectional area.",
-				"For a non-circular cross-section, girth tape correctly estimates the sectional area.",
-				"None of these is a correct statement.",
-			],
-			answer: "For a non-circular cross-section, girth tape over-estimates the sectional area.",
-		},
-		{
-			question:
-				"A tree has dbh of 25 cm. Find its basal area in sq m.",
-			options: [".049", ".096", ".149", ".195"],
-			answer: ".049",
-		},
+    question: "If we all became vegetarians, we'll be able to support our large populations. This can be explained through",
+    options: [
+        "10% rule",
+        "1% rule",
+        "trophic cascade",
+        "biodiversity"
+    ],
+    answer: "10% rule"
+},
+{
+    question: "Trees → Birds → Parasites → Hyperparasites represents",
+    options: [
+        "upright pyramid of numbers",
+        "inverted pyramid of numbers",
+        "spindle pyramid of numbers",
+        "dumb-bell pyramid of numbers"
+    ],
+    answer: "spindle pyramid of numbers"
+},
+{
+    question: "Net primary productivity is given by",
+    options: [
+        "APAR × LUE",
+        "APAR + LUE",
+        "APAR - LUE",
+        "APAR / LUE"
+    ],
+    answer: "APAR × LUE"
+},
+{
+    question: "At the compensation point,",
+    options: [
+        "photosynthesis = respiration",
+        "photosynthesis < respiration",
+        "photosynthesis > respiration",
+        "photosynthesis = 0"
+    ],
+    answer: "photosynthesis = respiration"
+},
+{
+    question: "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. As we move up the food chain,",
+    options: [
+        "available energy decreases",
+        "available energy increases",
+        "available energy remains same",
+        "available energy is zero everywhere"
+    ],
+    answer: "available energy decreases"
+},
+{
+    question: "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
+    options: [
+        "more number of hawks than grasshoppers can be supported",
+        "more number of grasshoppers than hawks can be supported",
+        "equal number of hawks and grasshoppers can be supported",
+        "none of these"
+    ],
+    answer: "more number of grasshoppers than hawks can be supported"
+},
+{
+    question: "Tree → Frugivorous birds → Hawk represents",
+    options: [
+        "upright pyramid of numbers",
+        "inverted pyramid of numbers",
+        "spindle pyramid of numbers",
+        "dumb-bell pyramid of numbers"
+    ],
+    answer: "upright pyramid of numbers"
+},
+{
+    question: "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
+    options: [
+        "hawk is producer",
+        "hawk is consumer and carnivore",
+        "hawk is consumer and herbivore",
+        "hawk is decomposer"
+    ],
+    answer: "hawk is consumer and carnivore"
+},
+{
+    question: "Glacial lakes are typical examples of",
+    options: [
+        "eutrophic lakes",
+        "hypereutrophic lakes",
+        "oligotrophic lakes",
+        "mesotrophic lakes"
+    ],
+    answer: "oligotrophic lakes"
+},
+{
+    question: "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain,",
+    options: [
+        "frog is producer",
+        "frog is consumer and carnivore",
+        "frog is consumer and herbivore",
+        "frog is decomposer"
+    ],
+    answer: "frog is consumer and carnivore"
+},
 	],
 	week5: [
 		{
-			question: "The frequency of flyovers is an indicator of",
-			options: [
-				"spatial resolution",
-				"temporal resolution",
-				"spectral resolution",
-				"radiometric resolution",
-			],
-			answer: "temporal resolution",
-		},
-		{
-			question:
-				"___ is how close the measured values are to the correct value.",
-			options: ["Accuracy", "Precision", "Bias", "Variance"],
-			answer: "Accuracy",
-		},
-		{
-			question:
-				"“This sampling employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start.” We're talking about",
-			options: [
-				"Simple random sampling",
-				"Systematic sampling",
-				"Stratified sampling",
-				"Multistage sampling",
-			],
-			answer: "Systematic sampling",
-		},
-		{
-			question: "A list of sampling units is called a",
-			options: ["frame", "window", "sample", "population"],
-			answer: "frame",
-		},
-		{
-			question: "Which of these is correct?",
-			options: [
-				"Plane surveying takes into account the true shape of the Earth and is used for smaller areas (< 250 sq km)",
-				"Plane surveying takes into account the true shape of the Earth and is used for larger areas (> 250 sq km)",
-				"Geodetic surveying takes into account the true shape of the Earth and is used for smaller areas (< 250 sq km)",
-				"Geodetic surveying takes into account the true shape of the Earth and is used for larger areas (> 250 sq km)",
-			],
-			answer: "Geodetic surveying takes into account the true shape of the Earth and is used for larger areas (> 250 sq km)",
-		},
-		{
-			question:
-				"A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
-			options: [
-				"Simple random sampling",
-				"Systematic sampling",
-				"Stratified sampling",
-				"Multistage sampling",
-			],
-			answer: "Simple random sampling",
-		},
-		{
-			question: "Bathymetric LiDAR uses",
-			options: [
-				"far infrared light",
-				"near infrared light",
-				"orange light",
-				"green light",
-			],
-			answer: "green light",
-		},
-		{
-			question: "IMU stands for",
-			options: [
-				"Imperial metering unit",
-				"Inertial metering unit",
-				"Imperial measurement unit",
-				"Inertial measurement unit",
-			],
-			answer: "Inertial measurement unit",
-		},
-		{
-			question:
-				"___ is how close the measured values are to each other.",
-			options: ["Accuracy", "Precision", "Bias", "Variance"],
-			answer: "Precision",
-		},
-		{
-			question:
-				"The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
-			options: ["500 m", "1000 m", "1500 m", "2000 m"],
-			answer: "1500 m",
-		},
+    question: "The juvenile mortality rate is the annual number of deaths of juveniles per",
+    options: [
+        "100 births",
+        "1000 births",
+        "100 live births",
+        "1000 live births"
+    ],
+    answer: "1000 live births"
+},
+{
+    question: "Pan traps are used for sampling",
+    options: [
+        "bees",
+        "butterflies",
+        "non-pollinator insects",
+        "pollinator insects"
+    ],
+    answer: "pollinator insects"
+},
+{
+    question: "___ employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start.",
+    options: [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Stratified sampling",
+        "Multistage sampling"
+    ],
+    answer: "Systematic sampling"
+},
+{
+    question: "Which of these is not a measure of absolute population density?",
+    options: [
+        "total count",
+        "pelt count",
+        "capture-recapture method",
+        "removal method"
+    ],
+    answer: "pelt count"
+},
+{
+    question: "The logistic growth equation, when plotted, appears",
+    options: [
+        "I shaped",
+        "J shaped",
+        "S shaped",
+        "O shaped"
+    ],
+    answer: "S shaped"
+},
+{
+    question: "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
+    options: [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Stratified sampling",
+        "Multistage sampling"
+    ],
+    answer: "Simple random sampling"
+},
+{
+    question: "The minimum replacement level fertility for a population to grow should be greater than",
+    options: [
+        "1",
+        "2",
+        "3",
+        "4"
+    ],
+    answer: "2"
+},
+{
+    question: "Cover board surveys are typically used for sampling",
+    options: [
+        "herpetofauna",
+        "fishes",
+        "large mammals",
+        "carnivores"
+    ],
+    answer: "herpetofauna"
+},
+{
+    question: "Which of these is true?",
+    options: [
+        "Physiological longevity > Ecological longevity",
+        "Physiological longevity = Ecological longevity",
+        "Physiological longevity < Ecological longevity",
+        "a or b"
+    ],
+    answer: "Physiological longevity > Ecological longevity"
+},
+{
+    question: "___ is how close the measured values are to the correct value.",
+    options: [
+        "Accuracy",
+        "Precision",
+        "Bias",
+        "Variance"
+    ],
+    answer: "Accuracy"
+},
 	],
 	week6: [
 		{
-			question:
-				"A scientist uses a trap to capture a monkey. In the context of Wildlife Protection Act 1972,",
-			options: [
-				"the trap is a weapon and capturing is hunting.",
-				"the trap is not a weapon and capturing is hunting.",
-				"the trap is a weapon and capturing is not hunting.",
-				"the trap is not a weapon and capturing is not hunting.",
-			],
-			answer: "the trap is a weapon and capturing is hunting.",
-		},
-		{
-			question: "In the formula I = PXAXT, P refers to",
-			options: [
-				"professional pressure",
-				"pollution pressure",
-				"population pressure",
-				"none of the above",
-			],
-			answer: "population pressure",
-		},
-		{
-			question: "Which of these is a deterministic factor?",
-			options: [
-				"environmental variation",
-				"forest fire",
-				"death rate",
-				"diseases",
-			],
-			answer: "death rate",
-		},
-		{
-			question: "Which of these is a stochastic factor?",
-			options: [
-				"birth rate",
-				"death rate",
-				"population structure",
-				"forest fire",
-			],
-			answer: "forest fire",
-		},
-		{
-			question: "In the formula I = PXAXT, T refers to",
-			options: [
-				"transference",
-				"time",
-				"technology",
-				"none of the above",
-			],
-			answer: "technology",
-		},
-		{
-			question: "Which of these forms the fire triangle?",
-			options: [
-				"fire, air, heat",
-				"fire, oxygen, wood",
-				"fuel, air, wood",
-				"fuel, oxygen, heat",
-			],
-			answer: "fuel, oxygen, heat",
-		},
-		{
-			question:
-				"A veterinarian uses an immobilising gun to capture a deer. In the context of Wildlife Protection Act 1972,",
-			options: [
-				"the immobilising gun is a weapon and capturing is hunting.",
-				"the immobilising gun is not a weapon and capturing is hunting.",
-				"the immobilising gun is a weapon and capturing is not hunting.",
-				"the immobilising gun is not a weapon and capturing is not hunting.",
-			],
-			answer: "the immobilising gun is a weapon and capturing is hunting.",
-		},
-		{
-			question:
-				"Invasive climbers increase the probability of which of these fire types?",
-			options: [
-				"ground fire",
-				"surface fire",
-				"ladder fire",
-				"firestorm",
-			],
-			answer: "ladder fire",
-		},
-		{
-			question: "The acronym HIPPO does not include",
-			options: [
-				"habitat loss",
-				"habitat enhancement",
-				"over-harvesting",
-				"human over-population",
-			],
-			answer: "habitat enhancement",
-		},
-		{
-			question: "The acronym HIPPO does not include",
-			options: [
-				"habitat loss",
-				"invasive species",
-				"pollination",
-				"pollution",
-			],
-			answer: "pollination",
-		},
+    question: "Importance value can be written as",
+    options: [
+        "Relative density + Relative frequency X Relative dominance",
+        "Relative density X Relative frequency + Relative dominance",
+        "Relative density + Relative frequency + Relative dominance",
+        "Relative density X Relative frequency X Relative dominance"
+    ],
+    answer: "Relative density + Relative frequency + Relative dominance"
+},
+{
+    question: "A species found most frequently in a particular community, but also present occasionally in others is called",
+    options: [
+        "accidental species",
+        "indifferent species",
+        "selective species",
+        "exclusive species"
+    ],
+    answer: "indifferent species"
+},
+{
+    question: "When compared to generalist species, specialist species have",
+    options: [
+        "narrower niches",
+        "broader niches",
+        "same-size niches",
+        "none of these"
+    ],
+    answer: "narrower niches"
+},
+{
+    question: "A climax caused by wildfires is an example of",
+    options: [
+        "climatic climax",
+        "edaphic climax",
+        "disclimax",
+        "catastrophic climax"
+    ],
+    answer: "catastrophic climax"
+},
+{
+    question: "Lithosere is an example of",
+    options: [
+        "hydrosere",
+        "xerosere",
+        "psammosere",
+        "halosere"
+    ],
+    answer: "xerosere"
+},
+{
+    question: "Which of these is correct?",
+    options: [
+        "Fundamental niche > Realised niche",
+        "Fundamental niche = Realised niche",
+        "Fundamental niche < Realised niche",
+        "a or b"
+    ],
+    answer: "Fundamental niche > Realised niche"
+},
+{
+    question: "Importance value varies from",
+    options: [
+        "0 to 10",
+        "0 to 50",
+        "0 to 100",
+        "0 to 300"
+    ],
+    answer: "0 to 300"
+},
+{
+    question: "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+    options: [
+        "climatic climax",
+        "edaphic climax",
+        "disclimax",
+        "catastrophic climax"
+    ],
+    answer: "disclimax"
+},
+{
+    question: "Which of these is not a characteristic of pioneer species",
+    options: [
+        "ability to grow on bare rocks",
+        "ability to tolerate extreme temperatures",
+        "large size",
+        "short life span"
+    ],
+    answer: "large size"
+},
+{
+    question: "Which of these depicts correctly the lithosere primary succession?",
+    options: [
+        "Rock → Crustose lichen → Foliose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax",
+        "Rock → Foliose lichen → Crustose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax",
+        "Moss → Crustose lichen → Foliose lichen → Rock → Herbaceous stage → Shrub → Woodland → Climax",
+        "Rock → Crustose lichen → Foliose lichen → Shrub → Herbaceous stage → Moss → Woodland → Climax"
+    ],
+    answer: "Rock → Crustose lichen → Foliose lichen → Moss → Herbaceous stage → Shrub → Woodland → Climax"
+},
 	],
 	week7: [
 		{
-			question:
-				"A site was clear-cut. Which of these methods of regeneration cannot be used in a short time-frame?",
-			options: [
-				"natural regeneration",
-				"artificial regeneration by direct sowing",
-				"artificial regeneration by planting seedlings",
-				"artificial regeneration by transplanting trees",
-			],
-			answer: "natural regeneration",
-		},
-		{
-			question:
-				"Average age at which a tree is considered mature for felling is called as",
-			options: [
-				"crop age",
-				"felling age",
-				"rotation age",
-				"maturity age",
-			],
-			answer: "rotation age",
-		},
-		{
-			question:
-				"Which of these is not a feature of natural regeneration",
-			options: [
-				"low cost",
-				"less requirement of heavy machinery and labour",
-				"preservation of genetic variability",
-				"good control over genetic improvement",
-			],
-			answer: "good control over genetic improvement",
-		},
-		{
-			question: "Ring weeding is primarily a feature of",
-			options: [
-				"natural regeneration",
-				"assisted natural regeneration",
-				"artificial regeneration by direct sowing",
-				"artificial regeneration by planting seedlings",
-			],
-			answer: "assisted natural regeneration",
-		},
-		{
-			question:
-				"The movement of seeds away from their place of seed production into a new area is called",
-			options: [
-				"translocation",
-				"migration",
-				"dispersal",
-				"drifting",
-			],
-			answer: "dispersal",
-		},
-		{
-			question:
-				"Which of these is not a feature of natural regeneration",
-			options: [
-				"seed consumption by insects and seed feeders",
-				"little control over spacing and stand density",
-				"long time needed to regenerate forest",
-				"high requirement of heavy machinery and labour",
-			],
-			answer: "high requirement of heavy machinery and labour",
-		},
-		{
-			question:
-				"Which of these is the correct sequence of a silvicultural system?",
-			options: [
-				"Stand tending -> Regeneration -> Harvesting",
-				"Harvesting -> Stand tending -> Regeneration",
-				"Harvesting -> Regeneration -> Stand tending",
-				"Regeneration -> Harvesting -> Stand tending",
-			],
-			answer: "Harvesting -> Regeneration -> Stand tending",
-		},
-		{
-			question:
-				"Which of these is not advantage of clear felling system",
-			options: [
-				"Simple system, easy and efficient operations",
-				"Allows for establishment of a more uniform crop",
-				"Increases soil erosion and landslides in hilly areas",
-				"Mimics natural processes of fire and large-scale insect attacks",
-			],
-			answer: "Increases soil erosion and landslides in hilly areas",
-		},
-		{
-			question: "Tending is done during",
-			options: [
-				"early stage of life",
-				"middle stage of life",
-				"late stage of life",
-				"any stage of life",
-			],
-			answer: "any stage of life",
-		},
-		{
-			question: "Taungya regeneration is",
-			options: [
-				"natural regeneration",
-				"artificial regeneration with villagers",
-				"artificial regeneration with nomadic tribes",
-				"artificial regeneration with hunters and gatherers",
-			],
-			answer: "artificial regeneration with villagers",
-		},
+    question: "The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance. This is the statement for",
+    options: [
+        "Liebig’s law of the minimum",
+        "Liebig’s law of the maximum",
+        "Shelford’s law of tolerance",
+        "Shelford’s law of intolerance"
+    ],
+    answer: "Shelford’s law of tolerance"
+},
+{
+    question: "Transplantation experiments are used to find",
+    options: [
+        "potential range",
+        "effective range",
+        "actual range",
+        "economic range"
+    ],
+    answer: "potential range"
+},
+{
+    question: "Good climate is a",
+    options: [
+        "chemical factor",
+        "demographic factor",
+        "push factor",
+        "pull factor"
+    ],
+    answer: "pull factor"
+},
+{
+    question: "The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor. This is the statement for",
+    options: [
+        "Liebig’s law of the minimum",
+        "Liebig’s law of the maximum",
+        "Shelford’s law of tolerance",
+        "Shelford’s law of intolerance"
+    ],
+    answer: "Liebig’s law of the minimum"
+},
+{
+    question: "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
+    options: [
+        "autophagy",
+        "allelophagy",
+        "autopathy",
+        "allelopathy"
+    ],
+    answer: "allelopathy"
+},
+{
+    question: "Quick movement over large distances, often across unsuitable terrain is a description of",
+    options: [
+        "diffusion",
+        "secular dispersal",
+        "jump dispersal",
+        "drifting"
+    ],
+    answer: "jump dispersal"
+},
+{
+    question: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+    options: [
+        "translocation",
+        "migration",
+        "dispersal",
+        "drifting"
+    ],
+    answer: "dispersal"
+},
+{
+    question: "The movement of lions across the Gir landscape is an example of",
+    options: [
+        "diffusion",
+        "secular dispersal",
+        "jump dispersal",
+        "drifting"
+    ],
+    answer: "diffusion"
+},
+{
+    question: "Which of these is not a physical factor of habitat?",
+    options: [
+        "soil",
+        "moisture",
+        "predators",
+        "temperature"
+    ],
+    answer: "predators"
+},
+{
+    question: "Scarcity of food is a",
+    options: [
+        "chemical factor",
+        "demographic factor",
+        "push factor",
+        "pull factor"
+    ],
+    answer: "push factor"
+},
 	],
 	week8: [
 		{
-			question: "Trees not putting increment are removed during",
-			options: [
-				"preparatory felling",
-				"seeding felling",
-				"secondary felling",
-				"final felling",
-			],
-			answer: "preparatory felling",
-		},
-		{
-			question:
-				"For a crop with rotation age of 120 years, PB-III would have crop age",
-			options: [
-				"0-30 years",
-				"30-60 years",
-				"60-90 years",
-				"90-120 years",
-			],
-			answer: "30-60 years",
-		},
-		{
-			question: "Close to nature forestry is a feature of",
-			options: [
-				"clear felling system",
-				"selection system",
-				"uniform shelterwood system",
-				"group shelterwood system",
-			],
-			answer: "selection system",
-		},
-		{
-			question: "Shelterwood system results in",
-			options: [
-				"even aged stand with natural aesthetics",
-				"even aged stand with artificial aesthetics",
-				"uneven aged stand with natural aesthetics",
-				"uneven aged stand with artificial aesthetics",
-			],
-			answer: "even aged stand with natural aesthetics",
-		},
-		{
-			question:
-				"Inverse-J shaped number-diameter curves are seen in",
-			options: [
-				"clear felling system",
-				"selection system",
-				"uniform shelterwood system",
-				"group shelterwood system",
-			],
-			answer: "selection system",
-		},
-		{
-			question: "Clear felling system is not used for",
-			options: [
-				"light demanding species",
-				"shade bearer species",
-				"plain areas",
-				"plateau areas",
-			],
-			answer: "shade bearer species",
-		},
-		{
-			question:
-				"Which of these is the correct sequence for shelterwood system?",
-			options: [
-				"Preparatory felling ->Secondary felling -> Seedling felling -> Final felling",
-				"Preparatory felling -> Seedling felling -> Secondary felling -> Final felling",
-				"Preparatory felling ->Secondary felling -> Seeding felling -> Final felling",
-				"Preparatory felling -> Seeding felling -> Secondary felling -> Final felling",
-			],
-			answer: "Preparatory felling -> Seeding felling -> Secondary felling -> Final felling",
-		},
-		{
-			question:
-				"Felling made with the object of opening the canopy to remove shelter and allow more light for the regenerated crop is",
-			options: [
-				"preparatory felling",
-				"seeding felling",
-				"secondary felling",
-				"final felling",
-			],
-			answer: "secondary felling",
-		},
-		{
-			question:
-				"In group shelterwood system, the regeneration area is increased",
-			options: [
-				"centrifugally around gaps",
-				"centripetally around gaps",
-				"parallel to gaps",
-				"perpendicular to gaps",
-			],
-			answer: "centrifugally around gaps",
-		},
-		{
-			question: "Catchment areas are best suited for",
-			options: [
-				"clear felling system",
-				"selection system",
-				"uniform shelterwood system",
-				"group shelterwood system",
-			],
-			answer: "selection system",
-		},
+    question: "The “subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce” is the definition of",
+    options: [
+        "habitat",
+        "ecosystem",
+        "biome",
+        "biosphere"
+    ],
+    answer: "habitat"
+},
+{
+    question: "According to Leopold, which of these is not a tool of habitat management?",
+    options: [
+        "fire",
+        "gun",
+        "cattle",
+        "sickle"
+    ],
+    answer: "sickle"
+},
+{
+    question: "Zoo is an example of",
+    options: [
+        "in-situ conservation",
+        "ex-situ conservation",
+        "in-situ preservation",
+        "ex-situ preservation"
+    ],
+    answer: "ex-situ conservation"
+},
+{
+    question: "The acronym HIPPO does not include",
+    options: [
+        "habitat loss",
+        "invasive species",
+        "pollination",
+        "pollution"
+    ],
+    answer: "pollination"
+},
+{
+    question: "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+    options: [
+        "very high",
+        "medium",
+        "very low",
+        "non-existent"
+    ],
+    answer: "very low"
+},
+{
+    question: "Which of these is a deterministic factor?",
+    options: [
+        "environmental variation",
+        "forest fire",
+        "death rate",
+        "diseases"
+    ],
+    answer: "death rate"
+},
+{
+    question: "Captive breeding is an example of",
+    options: [
+        "in-situ conservation",
+        "ex-situ conservation",
+        "in-situ preservation",
+        "ex-situ preservation"
+    ],
+    answer: "ex-situ conservation"
+},
+{
+    question: "Which of these is a stochastic factor?",
+    options: [
+        "birth rate",
+        "death rate",
+        "population structure",
+        "environmental fluctuation"
+    ],
+    answer: "environmental fluctuation"
+},
+{
+    question: "Which of these correctly represents the process of habitat fragmentation and loss?",
+    options: [
+        "Original forest → Dissection → Perforation → Fragmentation → Attrition",
+        "Original forest → Dissection → Attrition → Fragmentation → Perforation",
+        "Original forest → Dissection → Perforation → Attrition → Fragmentation",
+        "Original forest → Dissection → Fragmentation → Perforation → Attrition"
+    ],
+    answer: "Original forest → Dissection → Perforation → Fragmentation → Attrition"
+},
+{
+    question: "The acronym HIPPO does not include",
+    options: [
+        "habitat loss",
+        "habitat enhancement",
+        "invasive species",
+        "human over-population"
+    ],
+    answer: "habitat enhancement"
+},
 	],
 	week9: [
 		{
-			question:
-				"Moving of logs from forest to landing area is known as",
-			options: ["marking", "bucking", "skidding", "delimbing"],
-			answer: "skidding",
-		},
-		{
-			question: "Research plots are shown in ___ marking colour",
-			options: ["yellow", "blue", "red", "white"],
-			answer: "white",
-		},
-		{
-			question:
-				"Which of these gives the greatest accuracy in constructing face cuts",
-			options: [
-				"conventional face",
-				"humboldt face",
-				"open face",
-				"all of these",
-			],
-			answer: "conventional face",
-		},
-		{
-			question:
-				"Careful selection of trees for harvesting based on a forest management prescription is known as",
-			options: ["surveying", "cruising", "marking", "logging"],
-			answer: "marking",
-		},
-		{
-			question:
-				"Surveying timberlands to locate and estimate the volumes and grades of standing timber meeting requirements is known as",
-			options: ["surveying", "cruising", "marking", "logging"],
-			answer: "cruising",
-		},
-		{
-			question: "Trees on boundary are shown in ___ marking colour",
-			options: ["yellow", "blue", "red", "white"],
-			answer: "red",
-		},
-		{
-			question: "Cutting of timber into logs is known as",
-			options: ["marking", "bucking", "skidding", "delimbing"],
-			answer: "bucking",
-		},
-		{
-			question: "Which of these gives the greatest saving of lumber",
-			options: [
-				"conventional face",
-				"humboldt face",
-				"open face",
-				"all of these",
-			],
-			answer: "humboldt face",
-		},
-		{
-			question:
-				"Trees to be retained are shown in ___ marking colour",
-			options: ["yellow", "blue", "red", "white"],
-			answer: "blue",
-		},
-		{
-			question: "Net growth in initial volume is given by",
-			options: ["V2 - V1", "V2 - V1 + H + I", "V2 - V1 + H - I + M", "V2 -V1 + H - I - M"],
-			answer: "V2 - V1 + H + I",
-		},
+    question: "According to Malthusian model,",
+    options: [
+        "Population grows in geometric progression, food supply increases in arithmetic progression",
+        "Population grows in geometric progression, food supply increases in geometric progression",
+        "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+        "Population grows in arithmetic progression, food supply increases in geometric progression"
+    ],
+    answer: "Population grows in geometric progression, food supply increases in arithmetic progression"
+},
+{
+    question: "Which of these is not a pillar of sustainability?",
+    options: [
+        "environmental sustainability",
+        "economic sustainability",
+        "trans-boundary sustainability",
+        "social sustainability"
+    ],
+    answer: "trans-boundary sustainability"
+},
+{
+    question: "The quantum of human impacts is given by",
+    options: [
+        "I = P × A × T",
+        "I = P + A + T",
+        "I = P + A - T",
+        "I = P - (A + T)"
+    ],
+    answer: "I = P × A × T"
+},
+{
+    question: "Which of these is a positive check according to Malthus?",
+    options: [
+        "late marriage",
+        "war",
+        "celibacy",
+        "moral restraint"
+    ],
+    answer: "war"
+},
+{
+    question: "Which of these is a pillar of sustainability",
+    options: [
+        "social sustainability",
+        "industrial sustainability",
+        "agricultural sustainability",
+        "trans-boundary sustainability"
+    ],
+    answer: "social sustainability"
+},
+{
+    question: "___ is used to identify which potential impacts are relevant to assess. (Fill in the blank)",
+    options: [
+        "screening",
+        "scoping",
+        "reporting",
+        "review"
+    ],
+    answer: "scoping"
+},
+{
+    question: "___ determines which projects or developments require a full or partial impact assessment study. (Fill in the blank)",
+    options: [
+        "screening",
+        "scoping",
+        "reporting",
+        "review"
+    ],
+    answer: "screening"
+},
+{
+    question: "The demographic transition sees a society move from",
+    options: [
+        "high birth rate, low death rate to low birth rate, low death rate",
+        "low birth rate, high death rate to low birth rate, low death rate",
+        "high birth rate, high death rate to low birth rate, low death rate",
+        "high birth rate, high death rate to low birth rate, high death rate"
+    ],
+    answer: "high birth rate, high death rate to low birth rate, low death rate"
+},
+{
+    question: "The book 'An Essay on the Principle of Population' was written by",
+    options: [
+        "Darwin",
+        "Malthus",
+        "Spencer",
+        "Owens"
+    ],
+    answer: "Malthus"
+},
+{
+    question: "Which of these is a preventive check according to Malthus?",
+    options: [
+        "foresight",
+        "vice",
+        "misery",
+        "flood"
+    ],
+    answer: "foresight"
+},
 	],
 	week10: [
 		{
-			question: "Shell cracking of seeds is used for which species",
-			options: ["amla", "mango", "ber", "teak"],
-			answer: "ber",
-		},
-		{
-			question:
-				"Wet and dry treatment of seeds is used for which species",
-			options: ["amla", "mango", "ber", "teak"],
-			answer: "teak",
-		},
-		{
-			question: "Agave is used for",
-			options: [
-				"barbed wire fencing",
-				"live fencing",
-				"chain link fencing",
-				"stone wall fencing",
-			],
-			answer: "live fencing",
-		},
-		{
-			question:
-				"Which of these is not a laboratory method to determine best days for seed collection?",
-			options: [
-				"maximum dry weight",
-				"colour of fruits",
-				"moisture content of fruits",
-				"chemical analysis of fat and nitrogen content",
-			],
-			answer: "colour of fruits",
-		},
-		{
-			question: "Which of these characterises a refractory site",
-			options: [
-				"soil depth < 10 cm",
-				"soil depth 10-30 cm",
-				"soil depth > 30 cm",
-				"none of these",
-			],
-			answer: "soil depth < 10 cm",
-		},
-		{
-			question: "Which of these is a good storage condition",
-			options: [
-				"high moisture, high temperature",
-				"high moisture, low temperature",
-				"low moisture, high temperature",
-				"low moisture, low temperature",
-			],
-			answer: "low moisture, low temperature",
-		},
-		{
-			question: "Which of these prevents water logging",
-			options: [
-				"sunken bed",
-				"raised bed",
-				"flat bed",
-				"all of these",
-			],
-			answer: "raised bed",
-		},
-		{
-			question: "Choice of spacing is dependent upon",
-			options: [
-				"objective of plantation",
-				"site-species matching",
-				"growth rate",
-				"all of these",
-			],
-			answer: "all of these",
-		},
-		{
-			question: "Which of these conserves moisture",
-			options: [
-				"sunken bed",
-				"raised bed",
-				"flat bed",
-				"all of these",
-			],
-			answer: "sunken bed",
-		},
-		{
-			question:
-				"Number of seeds in sample that germinate up to the peak germination period expressed as % is a definition of",
-			options: [
-				"germination number",
-				"germination percentage",
-				"germination energy",
-				"germination power",
-			],
-			answer: "germination energy",
-		},
+    question: "Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead is a definition for",
+    options: [
+        "adaptation",
+        "mitigation",
+        "maladaptation",
+        "malmitigation"
+    ],
+    answer: "maladaptation"
+},
+{
+    question: "Macrodebris in the context of plastic debris has fragments of size",
+    options: [
+        "> 20 mm",
+        "5 - 20 mm",
+        "< 5 mm",
+        "< 1 mm"
+    ],
+    answer: "> 20 mm"
+},
+{
+    question: "Which of these is not a climatic forcing for Earth?",
+    options: [
+        "changes in plate tectonics",
+        "changes in Earth's orbit",
+        "changes in Sun's orbit",
+        "changes in Sun's strength"
+    ],
+    answer: "changes in Sun's orbit"
+},
+{
+    question: "The ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences is a definition for",
+    options: [
+        "adaptive response",
+        "adaptive capacity",
+        "mitigative response",
+        "mitigative capacity"
+    ],
+    answer: "adaptive capacity"
+},
+{
+    question: "Which of these is not a climatic forcing for Earth?",
+    options: [
+        "changes in plate tectonics",
+        "changes in Earth's orbit",
+        "changes in Moon's orbit",
+        "changes in Sun's strength"
+    ],
+    answer: "changes in Moon's orbit"
+},
+{
+    question: "Which of these is not a principle of ecological restoration?",
+    options: [
+        "ecological integrity",
+        "long-term sustainability",
+        "benefits and engages scientists",
+        "informed by past and future"
+    ],
+    answer: "benefits and engages scientists"
+},
+{
+    question: "Mesodebris in the context of plastic debris has fragments of size",
+    options: [
+        "> 20 mm",
+        "5 - 20 mm",
+        "< 5 mm",
+        "< 1 mm"
+    ],
+    answer: "5 - 20 mm"
+},
+{
+    question: "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
+    options: [
+        "adaptation",
+        "mitigation",
+        "deceleration",
+        "maladaptation"
+    ],
+    answer: "mitigation"
+},
+{
+    question: "Which of these is not a principle of ecological restoration?",
+    options: [
+        "ecological integrity",
+        "short-term sustainability",
+        "benefits and engages society",
+        "informed by past and future"
+    ],
+    answer: "short-term sustainability"
+},
+{
+    question: "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+    options: [
+        "adaptation",
+        "mitigation",
+        "deceleration",
+        "maladaptation"
+    ],
+    answer: "adaptation"
+},
 	],
 	week11: [
 		{
-			question:
-				"The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
-			options: [
-				"umbrella species",
-				"keystone species",
-				"flagship species",
-				"all of the above",
-			],
-			answer: "all of the above",
-		},
-		{
-			question: "Zoo is an example of",
-			options: [
-				"in-situ conservation",
-				"ex-situ conservation",
-				"in-situ preservation",
-				"ex-situ preservation",
-			],
-			answer: "ex-situ conservation",
-		},
-		{
-			question:
-				"Sustainable harvest of resources falls under the category of:",
-			options: [
-				"conservation",
-				"preservation",
-				"environmentalism",
-				"none of the above",
-			],
-			answer: "conservation",
-		},
-		{
-			question:
-				"We prefer those areas for the creation of a conservation reserve where the level of threat is",
-			options: ["very high", "medium", "very low", "non-existent"],
-			answer: "medium",
-		},
-		{
-			question: "Captive breeding is an example of",
-			options: [
-				"in-situ conservation",
-				"ex-situ conservation",
-				"in-situ preservation",
-				"ex-situ preservation",
-			],
-			answer: "ex-situ conservation",
-		},
-		{
-			question:
-				"Which of these is not a forest classification as per the 1894 Forest Policy:",
-			options: [
-				"protection forest",
-				"production forest",
-				"minor forest",
-				"major forest",
-			],
-			answer: "major forest",
-		},
-		{
-			question:
-				"In 1931, Van Panchayats were constituted in areas that are now in",
-			options: [
-				"Tamil Nadu",
-				"Madhya Pradesh",
-				"West Bengal",
-				"Uttarakhand",
-			],
-			answer: "Uttarakhand",
-		},
-		{
-			question: "Planting along canal banks is a part of",
-			options: [
-				"farm forestry",
-				"community forestry",
-				"extension forestry",
-				"agroforestry",
-			],
-			answer: "extension forestry",
-		},
-		{
-			question:
-				"The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
-			options: [
-				"least concern species",
-				"keystone species",
-				"flagship species",
-				"extinct species",
-			],
-			answer: "keystone species",
-		},
-		{
-			question:
-				"The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
-			options: [
-				"umbrella species",
-				"keystone species",
-				"flagship species",
-				"all of the above",
-			],
-			answer: "all of the above",
-		},
+    question: "Ludwig's ratchet predicts",
+    options: [
+        "decreasing harvesting rate",
+        "constant harvesting rate",
+        "increasing harvesting rate",
+        "fluctuating harvesting rate"
+    ],
+    answer: "increasing harvesting rate"
+},
+{
+    question: "Which of these is correct?",
+    options: [
+        "R + G = M + F",
+        "R + M = G + F",
+        "R + F = M + G",
+        "R + G + M + F = 0"
+    ],
+    answer: "R + F = M + G"
+},
+{
+    question: "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with soil and species of deciduous forest planted again. This is an example of",
+    options: [
+        "recovery",
+        "restoration",
+        "enhancement",
+        "replacement"
+    ],
+    answer: "restoration"
+},
+{
+    question: "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
+    options: [
+        "recovery",
+        "restoration",
+        "enhancement",
+        "replacement"
+    ],
+    answer: "replacement"
+},
+{
+    question: "A root zone treatment plant is an example of",
+    options: [
+        "phytoremediation",
+        "biological control",
+        "biomagnification",
+        "bioaccumulation"
+    ],
+    answer: "phytoremediation"
+},
+{
+    question: "A pest population is called controlled when",
+    options: [
+        "it is not increasing",
+        "it is decreasing",
+        "it is not causing any economic damage",
+        "it is not causing excessive economic damage"
+    ],
+    answer: "it is not causing excessive economic damage"
+},
+{
+    question: "Which of these is not an impact of toxic chemicals?",
+    options: [
+        "lethal effects",
+        "sub-lethal effects",
+        "reduction of existing stressors",
+        "reduced fecundity"
+    ],
+    answer: "reduction of existing stressors"
+},
+{
+    question: "Which of these is correct?",
+    options: [
+        "The maximum sustainable yield is near the beginning of the sigmoidal curve.",
+        "The maximum sustainable yield is near the mid-point of the sigmoidal curve.",
+        "The maximum sustainable yield is near the end of the sigmoidal curve.",
+        "None of these."
+    ],
+    answer: "The maximum sustainable yield is near the mid-point of the sigmoidal curve."
+},
+{
+    question: "The impact of El Nino on fishery collapse in Peru is explained by",
+    options: [
+        "match hypothesis",
+        "mismatch hypothesis",
+        "match-mismatch hypothesis",
+        "none of these"
+    ],
+    answer: "match-mismatch hypothesis"
+},
+{
+    question: "A pest population is called uncontrolled when",
+    options: [
+        "it is increasing",
+        "it is not decreasing",
+        "it is causing some economic damage",
+        "it is causing excessive economic damage"
+    ],
+    answer: "it is causing excessive economic damage"
+},
 	],
 	week12: [
 		{
-			question:
-				"A tree has dbh of 35 cm. Find its basal area in sq m.",
-			options: [".049", ".096", ".149", ".195"],
-			answer: ".096",
-		},
-		{
-			question:
-				"In a triangle, the angle between base and hypotenuse, θ = 60° and the hypotenuse c = 4 cm. Find the length of the base b.",
-			options: ["0.66", "1", "1.5", "2"],
-			answer: "2",
-		},
-		{
-			question:
-				"“allowing some places and some creatures to exist without significant human interference” is a definition of",
-			options: [
-				"conservation",
-				"preservation",
-				"environmentalism",
-				"all of these",
-			],
-			answer: "preservation",
-		},
-		{
-			question: "In India, the breast height is considered to be",
-			options: ["1.37 m", "1.47 m", "1.57 m", "2.47 m"],
-			answer: "1.37 m",
-		},
-		{
-			question:
-				"The term laterite soil is derived from Latin later which means",
-			options: ["red", "brick", "fertile", "infertile"],
-			answer: "brick",
-		},
-		{
-			question: "Which of these is not a non-use value?",
-			options: [
-				"direct value",
-				"existence value",
-				"altruistic value",
-				"bequest value",
-			],
-			answer: "direct value",
-		},
-		{
-			question:
-				"“Science of relationships between organisms and their environments” is the definition of:",
-			options: [
-				"conservation",
-				"preservation",
-				"environmentalism",
-				"ecology",
-			],
-			answer: "ecology",
-		},
-		{
-			question: "Self ploughing character is seen in",
-			options: [
-				"black cotton soil",
-				"alluvial soil",
-				"saline soil",
-				"red and yellow soil",
-			],
-			answer: "black cotton soil",
-		},
-		{
-			question: "Mechanical action of ocean waves is an example of",
-			options: [
-				"chemical weathering",
-				"physical weathering",
-				"biological weathering",
-				"none of the above",
-			],
-			answer: "physical weathering",
-		},
-		{
-			question: "Lithosere is an example of",
-			options: ["hydrosere", "xerosere", "psammosere", "halosere"],
-			answer: "xerosere",
-		},
+    question: "At the compensation point,",
+    options: [
+        "photosynthesis = respiration",
+        "photosynthesis < respiration",
+        "photosynthesis > respiration",
+        "photosynthesis = 0"
+    ],
+    answer: "photosynthesis = respiration"
+},
+{
+    question: "Birds on giraffe are an example of",
+    options: [
+        "colony",
+        "commensalism",
+        "protocooperation",
+        "allelopathy"
+    ],
+    answer: "protocooperation"
+},
+{
+    question: "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+    options: [
+        "adaptation",
+        "mitigation",
+        "deceleration",
+        "maladaptation"
+    ],
+    answer: "adaptation"
+},
+{
+    question: "Which of these is a stochastic factor?",
+    options: [
+        "birth rate",
+        "death rate",
+        "population structure",
+        "environmental fluctuation"
+    ],
+    answer: "environmental fluctuation"
+},
+{
+    question: "The mitochondrion is a / an",
+    options: [
+        "Sub-cellular organelle",
+        "Cell",
+        "Tissue",
+        "Organ"
+    ],
+    answer: "Sub-cellular organelle"
+},
+{
+    question: "Which of these is correct?",
+    options: [
+        "Fundamental niche > Realised niche",
+        "Fundamental niche = Realised niche",
+        "Fundamental niche < Realised niche",
+        "a or b"
+    ],
+    answer: "Fundamental niche > Realised niche"
+},
+{
+    question: "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+    options: [
+        "translocation",
+        "migration",
+        "dispersal",
+        "drifting"
+    ],
+    answer: "dispersal"
+},
+{
+    question: "The book 'An Essay on the Principle of Population' was written by",
+    options: [
+        "Darwin",
+        "Malthus",
+        "Spencer",
+        "Owens"
+    ],
+    answer: "Malthus"
+},
+{
+    question: "Which of these is not a step in natural selection?",
+    options: [
+        "variation",
+        "underpopulation",
+        "struggle for existence",
+        "survival of the fittest"
+    ],
+    answer: "underpopulation"
+},
+{
+    question: "The logistic growth equation, when plotted, appears",
+    options: [
+        "I shaped",
+        "J shaped",
+        "S shaped",
+        "O shaped"
+    ],
+    answer: "S shaped"
+},
 	],
 };
